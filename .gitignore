@@ -1,0 +1,8 @@
+LandParserGenerator/LandParserGenerator/bin/
+LandParserGenerator/LandParserGenerator/obj/
+LandParserGenerator/packages/
+LandParserGenerator/TestGUI/bin/
+LandParserGenerator/TestGUI/obj/
+LandParserGenerator/.vs/
+*.Designer.cs
+*.csproj.user
