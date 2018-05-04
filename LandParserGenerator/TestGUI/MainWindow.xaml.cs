@@ -344,8 +344,13 @@ namespace TestGUI
 
 		private void OpenFile(string filename)
 		{
-			FileEditor.Text = File.ReadAllText(filename);
+			var stream = new StreamReader(filename, Encoding.Default, true);
+
 			TestFileName.Content = filename;
+			FileEditor.Text = stream.ReadToEnd();
+			FileEditor.Encoding = stream.CurrentEncoding;
+
+			stream.Close();		
 
 			ParseButton_Click(null, null);
 		}
