@@ -6,13 +6,10 @@ This repository was created separately from the repository where the main develo
 [Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) must be installed for correct lexical analyzer generation and work.
 
 Missing NuGet packages will be automatically restored when the solution is built for the first time.
-## Further research on tolerant parsing and binding to code:
- 
- 
-Tolerant parsing using modified LR(1) and LL(1) algorithms with embedded “Any” symbol, 2019.
-
-[paper](https://www.ispras.ru/proceedings/docs/2019/31/3/isp_31_2019_3_7.pdf) & [repository](https://github.com/alexeyvale/SYRCoSE-2019)
+## Further research on tolerant parsing and binding to code
+* Tolerant parsing using modified LR(1) and LL(1) algorithms with embedded “Any” symbol, **2019** |
+_[paper](https://www.ispras.ru/proceedings/docs/2019/31/3/isp_31_2019_3_7.pdf) & [repo](https://github.com/alexeyvale/SYRCoSE-2019)_
   
-Using improved context-based code description for robust algorithmic binding to changing code, 2021.
+* Using improved context-based code description for robust algorithmic binding to changing code, **2021** | _[paper](https://www.sciencedirect.com/science/article/pii/S1877050921020652) & [repo](https://github.com/alexeyvale/YSC-2021) (LanD & the Land Explorer tool)_
 
-[paper](https://www.sciencedirect.com/science/article/pii/S1877050921020652) & [repository](https://github.com/alexeyvale/YSC-2021)
+* Robust algorithmic binding to arbitrary fragment of program code, **2022** | _[paper](https://psta.psiras.ru/read/psta2022_1_35-62.pdf)_
